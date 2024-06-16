@@ -1,0 +1,14 @@
+# Ignore Terraform files that should not be committed
+*.tfstate
+*.tfstate.*
+.crash
+.terraform/
+terraform.tfvars
+terraform.tfvars.json
+override.tf
+override.tf.json
+*_override.tf
+*_override.tf.json
+
+# Do not ignore terraform.lock.hcl
+!terraform.lock.hcl
